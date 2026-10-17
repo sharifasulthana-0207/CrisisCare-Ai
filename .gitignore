@@ -1,0 +1,15 @@
+node_modules/
+__pycache__/
+*.py[cod]
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+!.env.example
+.venv/
+.pytest_cache/
+.git/
+frontend/dist/
+.streamlit/secrets.toml
+dist/

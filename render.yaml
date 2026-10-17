@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: crisiscare-demo
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATA_DIR
+        value: /tmp/crisiscare
+      - key: SEED_DEMO_DATA
+        value: "true"
